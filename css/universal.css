@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--blue-9);
+}
+:root {
+  --blue-1: #03045e;
+  --blue-2: #023e8a;
+  --blue-3: #0077b6;
+  --blue-4: #0096c7;
+  --blue-5: #00b4d8;
+  --blue-6: #48cae4;
+  --blue-7: #90e0ef;
+  --blue-8: #ade8f4;
+  --blue-9: #caf0f8;
+  --pink-1: #f72585;
+  --grey-1: #868686;
+}
+
+.button {
+  display: block;
+  background-color: var(--pink-1);
+  color: white;
+  width: fit-content;
+  padding: 7px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 2px 2px 3px 0px var(--blue-1);
+}
+.button:hover {
+  transition-duration: 0.2s;
+  transform: translateY(-2px);
+}
+
+.fa {
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ca2f9b;
+  color: white;
+}
+.fa-envelope {
+  background: #dd4b39;
+  color: white;
+}
+.fa-github {
+  background: #919191;
+  color: white;
+}

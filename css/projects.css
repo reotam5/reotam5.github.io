@@ -1,0 +1,91 @@
+#section-projects {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-rows: 50vh 50vh;
+  grid-template-rows: calc(var(--vh, 1vh) * 50) calc(var(--vh, 1vh) * 50);
+}
+#pcLayers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#pcLayers img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  bottom: 0px;
+  max-width: 400px;
+  width: 85vw;
+}
+#section-projects .typewriter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 400px;
+  width: 85vw;
+  max-height: 320px;
+  height: 70vw;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  padding-bottom: 5vw;
+}
+
+@media (min-width: 550px) {
+  #section-projects {
+    grid-template-columns: 50vw 50vw;
+  }
+  #section-projects > .page-left {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 400px;
+  }
+
+  #pcLayers img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 750px;
+    width: 100vw;
+  }
+
+  #section-projects .typewriter {
+    font-size: 20pt;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 380px;
+    max-width: 380px;
+    height: 60vw;
+    width: 60vw;
+    padding-bottom: 100px;
+  }
+  #section-projects .typewriter div {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 850px) {
+  #section-projects .typewriter {
+    font-size: 30pt;
+  }
+  #section-projects .typewriter div {
+    margin-right: 10px;
+  }
+}
